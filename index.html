@@ -303,54 +303,102 @@
             </p>
           </div>
 
-          <!-- Carousel Section -->
-          <div class="flex justify-center">
-            <div class="carousel max-w-[1000px] h-[500px] mx-auto">
-              <div id="slide1" class="carousel-item relative w-full">
-                <img src="images/banner.png" class="w-full opacity-25" />
-                <div
-                  class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
-                >
-                  <a href="#slide4" class="btn btn-circle">❮</a>
-                  <a href="#slide2" class="btn btn-circle">❯</a>
-                </div>
-              </div>
-              <div id="slide2" class="carousel-item relative w-full">
-                <img src="images/slider-1.jpg" class="w-full opacity-25" />
-                <div
-                  class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
-                >
-                  <a href="#slide1" class="btn btn-circle">❮</a>
-                  <a href="#slide3" class="btn btn-circle">❯</a>
-                </div>
-              </div>
-              <div id="slide3" class="carousel-item relative w-full">
-                <img src="images/slider-2.jpg" class="w-full opacity-25" />
-                <div
-                  class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
-                >
-                  <a href="#slide2" class="btn btn-circle">❮</a>
-                  <a href="#slide4" class="btn btn-circle">❯</a>
-                </div>
-              </div>
-              <div id="slide4" class="carousel-item relative w-full">
-                <img src="images/slider-3.jpg" class="w-full opacity-25" />
-                <div
-                  class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
-                >
-                  <a href="#slide3" class="btn btn-circle">❮</a>
-                  <a href="#slide1" class="btn btn-circle">❯</a>
-                </div>
-              </div>
-            </div>
 
-            <img class="w-[70px] h-[70px]" src="images/profile-img-work.jpg" alt="">
-            <h1>Arafat Sany</h1>
-            <h2>Web Developer</h2>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-          </div>
+
+          <section>
+  <div>
+    <div class="carousel w-full">
+
+      <!-- Slide 1 -->
+      <div id="slide1" class="carousel-item relative w-full h-[500px]">
+        <img src="images/banner.png" class="w-full object-cover rounded-2xl" />
+        <div class="absolute inset-0 bg-gradient-to-r from-[#1e2026]/80 to-[#000000]/80"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+          <img class="w-24 h-24 md:w-28 md:h-28 rounded-full border-4 border-white mb-4"
+            src="images/profile-img-work.jpg" alt="Profile">
+          <h1 class="text-xl md:text-2xl font-bold mb-1">Arafat Sany</h1>
+          <h2 class="text-sm md:text-lg mb-4 ">Web Developer</h2>
+          <p class="text-center text-[10px] sm:text-[20px] md:text-sm leading-tight md:leading-relaxed lg:mb-16 md:mb-10 sm:mb-5 text-[#707070]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+        </div>
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide4" class="btn btn-circle">❮</a>
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div id="slide2" class="carousel-item relative w-full h-[500px]">
+        <img src="images/slider-1.jpg" class="w-full object-cover rounded-2xl" />
+        <div class="absolute inset-0 bg-gradient-to-r from-[#1e2026]/80 to-[#000000]/80"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+          <img class="w-24 h-24 md:w-28 md:h-28 rounded-full border-4 border-white mb-4"
+            src="images/profile-img-work.jpg" alt="Profile">
+          <h1 class="text-xl md:text-2xl font-bold mb-1">Yeasin Arafat</h1>
+          <h2 class="text-sm md:text-lg mb-4">UIX Designer</h2>
+          <p class="text-center text-[10px] sm:text-[20px] md:text-sm leading-tight md:leading-relaxed lg:mb-16 md:mb-10 sm:mb-5 text-[#707070]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+        </div>
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div id="slide3" class="carousel-item relative w-full h-[500px]">
+        <img src="images/slider-2.jpg" class="w-full object-cover rounded-2xl" />
+        <div class="absolute inset-0 bg-gradient-to-r from-[#1e2026]/80 to-[#000000]/80"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+          <img class="w-24 h-24 md:w-28 md:h-28 rounded-full border-4 border-white mb-4"
+            src="images/profile-img-work.jpg" alt="Profile">
+          <h1 class="text-xl md:text-2xl font-bold mb-1">Sany Ahmed</h1>
+          <h2 class="text-sm md:text-lg mb-4">UIX Designer</h2>
+          <p class="text-center text-[10px] sm:text-[20px] md:text-sm leading-tight md:leading-relaxed lg:mb-16 md:mb-10 sm:mb-5 text-[#707070]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+        </div>
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide2" class="btn btn-circle">❮</a>
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div id="slide4" class="carousel-item relative w-full h-[500px]">
+        <img src="images/slider-3.jpg" class="w-full object-cover rounded-2xl" />
+        <div class="absolute inset-0 bg-gradient-to-r from-[#1e2026]/80 to-[#000000]/80"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+          <img class="w-24 h-24 md:w-28 md:h-28 rounded-full border-4 border-white mb-4"
+            src="images/profile-img-work.jpg" alt="Profile">
+          <h1 class="text-xl md:text-2xl font-bold mb-1">Yeasin Ahmed</h1>
+          <h2 class="text-sm md:text-lg mb-4">Wev Developer</h2>
+          <p class="text-center text-[10px] sm:text-[20px] md:text-sm leading-tight md:leading-relaxed lg:mb-16 md:mb-10 sm:mb-5 text-[#707070]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+        </div>
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide3" class="btn btn-circle">❮</a>
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    
+  
+
+  </div>
+</section>
+
+
+          
+          
+           
         </section>
       </main>
     </div>
   </body>
 </html>
+
+<!-- 
+
+
+
